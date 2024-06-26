@@ -90,9 +90,9 @@ The warning here does need to be addressed before pipenv will work properly. You
 
 4. On the final screen click the "New" button and add the following two filepaths as new environment variables:
 
-`C:\Users\<username>\AppData\Roaming\Python\Python38\Scripts`
+`C:\Users\<username>\AppData\Roaming\Python\Python311\Scripts`
 
-`c:\Users\<username>\AppData\Roaming\Python\Python38\Site-Packages`
+`C:\Users\<username>\AppData\Roaming\Python\Python311\site-packages`
 
 Replace `<username>` in the path with your usename. Also, please note the lowercase `c` in the second filepath. I'm not sure if it really matters, but mine didn't work until I made it lowercase. :shrugs:
 
